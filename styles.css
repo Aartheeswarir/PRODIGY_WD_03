@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #541c3c, #822768);
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #f2b1cd;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e1abd2;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(207, 173, 196);
+}
+h1{
+    color: #f2b1cd;
+}
